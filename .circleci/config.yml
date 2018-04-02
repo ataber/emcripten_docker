@@ -18,7 +18,7 @@ jobs:
 
       - run:
           name: Build image
-          command: docker build -t ataber/emscripten emscripten
+          command: docker build -t ataber/emscripten .
 
       - run:
           name: Push image
